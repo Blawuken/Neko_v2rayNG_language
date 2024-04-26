@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_widget_name">Switch</string>
+    <string name="app_tile_name">Switch</string>
+    <string name="app_tile_first_use">First use of this feature, please use the app to add server</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="migration_success">Data migration success!</string>
+    <string name="migration_fail">Data migration failed!</string>
+
+    <!-- Notifications -->
+    <string name="notification_action_stop_v2ray">Stop</string>
+    <string name="toast_permission_denied">Unable to obtain the permission</string>
+    <string name="notification_action_more">click for more</string>
+    <string name="toast_services_start">Start Services</string>
+    <string name="toast_services_stop">Stop Services</string>
+    <string name="toast_services_success">Start Services Success</string>
+    <string name="toast_services_failure">Start Services Failure</string>
+
+    <!--ServerActivity-->
+    <string name="title_server">Configuration file</string>
+    <string name="menu_item_add_config">Add config</string>
+    <string name="menu_item_save_config">Save config</string>
+    <string name="menu_item_del_config">Delete config</string>
+    <string name="menu_item_import_config_qrcode">Import config from QRcode</string>
+    <string name="menu_item_import_config_clipboard">Import config from Clipboard</string>
+    <string name="menu_item_import_config_manually_vmess">Type manually[Vmess]</string>
+    <string name="menu_item_import_config_manually_vless">Type manually[VLESS]</string>
+    <string name="menu_item_import_config_manually_ss">Type manually[Shadowsocks]</string>
+    <string name="menu_item_import_config_manually_socks">Type manually[Socks]</string>
+    <string name="menu_item_import_config_manually_trojan">Type manually[Trojan]</string>
+    <string name="menu_item_import_config_manually_wireguard">Type manually[Wireguard]</string>
+    <string name="menu_item_import_config_custom">Custom config</string>
+    <string name="menu_item_import_config_custom_clipboard">Import custom config from Clipboard</string>
+    <string name="menu_item_import_config_custom_local">Import custom config from locally</string>
+    <string name="menu_item_import_config_custom_url">Import custom config from URL</string>
+    <string name="menu_item_import_config_custom_url_scan">Import custom config scan URL</string>
+    <string name="del_config_comfirm">Confirm delete？</string>
+    <string name="server_lab_remarks">remarks</string>
+    <string name="server_lab_address">address</string>
+    <string name="server_lab_port">port</string>
+    <string name="server_lab_id">id</string>
+    <string name="server_lab_alterid">alterId</string>
+    <string name="server_lab_security">security</string>
+    <string name="server_lab_network">Network</string>
+    <string name="server_lab_more_function">Transport</string>
+    <string name="server_lab_head_type">head type</string>
+    <string name="server_lab_mode_type">gRPC mode</string>
+    <string name="server_lab_request_host">request host(host/ws host/httpupgrade host/h2 host)/QUIC security/gRPC Authority</string>
+    <string name="server_lab_path">path(ws path/httpupgrade path/h2 path)/QUIC key/kcp seed/gRPC serviceName</string>
+    <string name="server_lab_stream_security">TLS</string>
+    <string name="server_lab_allow_insecure">allowInsecure</string>
+    <string name="server_lab_sni">SNI</string>
+    <string name="server_lab_address3">address</string>
+    <string name="server_lab_port3">port</string>
+    <string name="server_lab_id3">password</string>
+    <string name="server_lab_security3">security</string>
+    <string name="server_lab_id4">Password(Optional)</string>
+    <string name="server_lab_security4">User(Optional)</string>
+    <string name="server_lab_encryption">encryption</string>
+    <string name="server_lab_flow">flow</string>
+    <string name="server_lab_reserved">Reserved(Optional)</string>
+    <string name="server_lab_local_address">Local address (optional IPv4/IPv6, separated by commas)</string>
+    <string name="server_lab_local_mtu">Mtu(optional, default 1420)</string>
+    <string name="toast_success">Success</string>
+    <string name="toast_failure">Failure</string>
+    <string name="toast_none_data">There is nothing</string>
+    <string name="toast_incorrect_protocol">Incorrect protocol</string>
+    <string name="toast_decoding_failed">Decoding failed</string>
+    <string name="title_file_chooser">Select a Config File</string>
+    <string name="toast_require_file_manager">Please install a File Manager.</string>
+    <string name="server_customize_config">Customize Config</string>
+    <string name="toast_config_file_invalid">Invalid Config</string>
+    <string name="server_lab_content">Content</string>
+    <string name="toast_none_data_clipboard">There is no data in the clipboard</string>
+    <string name="toast_invalid_url">Invalid URL</string>
+    <string name="server_lab_need_inbound">Ensure inbounds port is consistent with the settings</string>
+    <string name="toast_malformed_josn">Config malformed</string>
+    <string name="server_lab_request_host6">Host(SNI)(Optional)</string>
+    <string name="toast_asset_copy_failed">File copy failed, please use File Manager</string>
+    <string name="menu_item_add_asset">Add asset</string>
+    <string name="menu_item_add_file">Add files</string>
+    <string name="menu_item_add_url">Add URL</string>
+    <string name="menu_item_download_file">Download files</string>
+    <string name="title_user_asset_add_url">Add asset URL</string>
+    <string name="msg_file_not_found">File not found</string>
+    <string name="msg_remark_is_duplicate">The remarks already exists</string>
+    <string name="toast_action_not_allowed">Action not allowed</string>
+
+
+    <!-- PerAppProxyActivity -->
+    <string name="msg_dialog_progress">Loading</string>
+    <string name="menu_item_search">Search</string>
+    <string name="menu_item_select_all">Select all</string>
+    <string name="msg_enter_keywords">Enter keywords</string>
+    <string name="switch_bypass_apps_mode">Bypass Mode</string>
+    <string name="menu_item_select_proxy_app">Auto select proxy app</string>
+    <string name="msg_downloading_content">Downloading content</string>
+    <string name="menu_item_export_proxy_app">Export to Clipboard</string>
+    <string name="menu_item_import_proxy_app">Import from Clipboard</string>
+
+
+    <!-- Preferences -->
+    <string name="title_settings">Settings</string>
+    <string name="title_advanced">Advanced Settings</string>
+    <string name="title_vpn_settings">VPN Settings</string>
+    <string name="title_pref_per_app_proxy">Per-app proxy</string>
+    <string name="summary_pref_per_app_proxy">General: Checked App is proxy, unchecked direct connection; \nbypass mode: checked app directly connected, unchecked proxy. \nThe option to automatically select the proxy application in the menu</string>
+
+    <string name="title_mux_settings">Mux Settings</string>
+    <string name="title_pref_mux_enabled">Enable Mux</string>
+    <string name="summary_pref_mux_enabled">Faster, but it may cause unstable connectivity\ncustomize how to handle TCP, UDP and QUIC below</string>
+    <string name="title_pref_mux_concurency">TCP connections（range -1 to 1024）</string>
+    <string name="title_pref_mux_xudp_concurency">XUDP connections（range -1 to 1024）</string>
+    <string name="title_pref_mux_xudp_quic">Handling of QUIC in mux tunnel</string>
+
+    <string name="title_pref_speed_enabled">Enable speed display</string>
+    <string name="summary_pref_speed_enabled">Display current speed in the notification.\nNotification icon would change based on
+        usage.</string>
+
+    <string name="title_pref_sniffing_enabled">Enable Sniffing</string>
+    <string name="summary_pref_sniffing_enabled">Try sniff domain from the packet (default on)</string>
+
+    <string name="title_pref_auto_test_connect">Auto Test and Connect</string>
+    <string name="summary_pref_auto_test_connect">Test every 15 minutes, and if it is not connected, try to connect to the best configuration by evaluating real delays.</string>
+
+    <string name="title_pref_local_dns_enabled">Enable local DNS</string>
+    <string name="summary_pref_local_dns_enabled">DNS processed by core‘s DNS module (Recommended, if need routing Bypassing LAN and
+        mainland address)</string>
+
+    <string name="title_pref_fake_dns_enabled">Enable fake DNS</string>
+    <string name="summary_pref_fake_dns_enabled">local DNS returns fake IP address (faster, but it may not work for some apps)</string>
+
+    <string name="title_pref_prefer_ipv6">Prefer IPv6</string>
+    <string name="summary_pref_prefer_ipv6">Prefer IPv6 address and routes</string>
+
+    <string name="title_pref_routing">Routing</string>
+    <string name="title_pref_routing_domain_strategy">Domain strategy</string>
+    <string name="title_pref_routing_mode">Predefined rules</string>
+    <string name="title_pref_routing_custom">Custom rules</string>
+
+    <string name="title_pref_remote_dns">Remote DNS (udp/tcp/https/quic)(Optional)</string>
+    <string name="summary_pref_remote_dns">DNS</string>
+
+    <string name="title_pref_vpn_dns">VPN DNS (only IPv4/v6)</string>
+
+    <string name="title_pref_domestic_dns">Domestic DNS (Optional)</string>
+    <string name="summary_pref_domestic_dns">DNS</string>
+
+    <string name="title_pref_proxy_sharing_enabled">Allow connections from the LAN</string>
+    <string name="summary_pref_proxy_sharing_enabled">Other devices can connect to proxy by your ip address through socks/http, Only enable in trusted network to avoid unauthorized connection</string>
+    <string name="toast_warning_pref_proxysharing_short">Allow connections from the LAN, Make sure you are in a trusted network</string>
+
+    <string name="title_pref_allow_insecure">allowInsecure</string>
+    <string name="summary_pref_allow_insecure">When TLS, the default allowInsecure</string>
+
+    <string name="title_pref_socks_port">SOCKS5 proxy port</string>
+    <string name="summary_pref_socks_port">SOCKS5 proxy port</string>
+
+    <string name="title_pref_http_port">HTTP proxy port</string>
+    <string name="summary_pref_http_port">HTTP proxy port</string>
+
+    <string name="title_pref_local_dns_port">Local DNS port</string>
+    <string name="summary_pref_local_dns_port">Local DNS port</string>
+
+    <string name="title_pref_confirm_remove">Delete configuration file confirmation</string>
+    <string name="summary_pref_confirm_remove">Whether to delete the configuration file requires a second confirmation by the user</string>
+
+    <string name="title_pref_start_scan_immediate">Start scanning immediately</string>
+    <string name="summary_pref_start_scan_immediate">Open the camera to scan immediately at startup, otherwise you can choose to scan the code or select a photo in the toolbar</string>
+
+    <string name="title_pref_feedback">Feedback</string>
+    <string name="summary_pref_feedback">Feedback enhancements or bugs to GitHub</string>
+    <string name="summary_pref_tg_group">Join Telegram Group</string>
+    <string name="toast_tg_app_not_found">Telegram app not found</string>
+    <string name="title_privacy_policy">Privacy policy</string>
+    <string name="title_about">About</string>
+    <string name="title_source_code">Source code</string>
+    <string name="title_tg_channel">Telegram channel</string>
+    <string name="title_configuration_backup">Backup configuration</string>
+    <string name="summary_configuration_backup">Storage location: [%s], The backup will be cleared after uninstalling the app or clearing the storage</string>
+    <string name="title_configuration_restore">Restore configuration</string>
+
+    <string name="title_pref_promotion">Promotion</string>
+    <string name="summary_pref_promotion">Promotion,click for details(Donation can be removed)</string>
+
+    <string name="title_pref_auto_update_subscription">Automatic update subscriptions</string>
+    <string name="summary_pref_auto_update_subscription">Update your subscriptions automatically with an interval in background. Depending on the device, this feature may not always work</string>
+    <string name="title_pref_auto_update_interval">Auto Update Interval (Minutes, Min value 15)</string>
+
+    <string name="title_core_loglevel">Log Level</string>
+    <string name="title_mode">Mode</string>
+    <string name="title_mode_help">Click me for more help</string>
+    <string name="title_language">Language</string>
+    <string name="title_ui_settings">UI settings</string>
+
+    <string name="title_logcat">Logcat</string>
+    <string name="logcat_copy">Copy</string>
+    <string name="logcat_clear">Clear</string>
+    <string name="title_service_restart">Service restart</string>
+    <string name="title_del_all_config">Delete all config</string>
+    <string name="title_del_duplicate_config">Delete duplicate config</string>
+    <string name="title_del_invalid_config">Delete invalid config(Test first)</string>
+    <string name="title_export_all">Export non-custom configs to clipboard</string>
+    <string name="title_sub_setting">Subscription group setting</string>
+    <string name="sub_setting_remarks">remarks</string>
+    <string name="sub_setting_url">Optional URL</string>
+    <string name="sub_setting_enable">Enable update</string>
+    <string name="sub_auto_update">Enable automatic update</string>
+    <string name="title_sub_update">Update subscription</string>
+    <string name="title_ping_all_server">Tcping all configuration</string>
+    <string name="title_real_ping_all_server">Real delay all configuration</string>
+    <string name="title_user_asset_setting">Geo asset files</string>
+    <string name="title_sort_by_test_results">Sorting by test results</string>
+    <string name="title_filter_config">Filter configuration file</string>
+    <string name="filter_config_all">All subscription groups</string>
+    <string name="title_del_duplicate_config_count">Delete %d duplicate configurations</string>
+
+    <string name="tasker_start_service">Start Service</string>
+    <string name="tasker_setting_confirm">Confirm</string>
+
+    <string name="routing_settings_title">Routing Settings</string>
+    <string name="routing_settings_tips">Separated by commas(,),remember to save</string>
+    <string name="routing_settings_save">Save</string>
+    <string name="routing_settings_delete">Clear</string>
+    <string name="routing_settings_scan_replace">Scan and replace</string>
+    <string name="routing_settings_scan_append">Scan and append</string>
+    <string name="routing_settings_default_rules"> set default routing rules</string>
+
+    <string name="connection_test_pending">Check Connectivity</string>
+    <string name="connection_test_testing">Testing…</string>
+    <string name="connection_test_available">Success: HTTP connection took %dms</string>
+    <string name="connection_test_error">Fail to detect internet connection: %s</string>
+    <string name="connection_test_fail">Internet Unavailable</string>
+    <string name="connection_test_error_status_code">Error code: #%d</string>
+    <string name="connection_connected">Connected, tap to check connection</string>
+    <string name="connection_not_connected">Not connected</string>
+
+    <string name="import_subscription_success">Subscription imported Successfully</string>
+    <string name="import_subscription_failure">Import subscription failed</string>
+    <string name="title_fragment_settings">Fragment Settings</string>
+    <string name="title_pref_fragment_packets">Fragment Packets</string>
+    <string name="title_pref_fragment_length">Fragment Length (min-max)</string>
+    <string name="title_pref_fragment_interval">Fragment Interval (min-max)</string>
+    <string name="title_pref_fragment_enabled">Enable Fragment</string>
+
+    <string name="title_ip_scanner_setting">IP Scanner</string>
+    <string name="title_ip_scanner">IP Scanner</string>
+    <string name="menu_item_cancel">Cancel</string>
+    <string name="menu_item_copy_all_ips">Copy All IPs</string>
+    <string name="ip_scanner_max_latency">Max. Latency</string>
+    <string name="ip_scanner_max_ips">Max. IPs</string>
+    <string name="ip_scanner_max_ips_default">5</string>
+    <string name="ip_scanner_max_latency_default">700</string>
+    <string name="menu_item_start_scan">Start Scan</string>
+    <string name="ip_scanner_cdn_provider">CDN Provider</string>
+    <string name="ip_scanner_clean_ips">Clean IPs</string>
+    <string name="ip_scanner_testing">Testing IPs</string>
+    <string name="ip_scanner_preparing">Preparing IPs</string>
+    <string name="ip_scanner_selected_config">Selected Config</string>
+    <string name="ip_scanner_no_valid_config_is_selected">No config selected!</string>
+
+    <!-- Neko strings -->
+    <string name="title_theme_settings">Theme Settings</string>
+    <string name="title_choose_theme">Choose Color Theme</string>
+    <string name="uwu_header_title">Hi, <b>onii-chan</b></string>
+    <string name="uwu_edit">Edit</string>
+    <string name="uwu_credits">Credits</string>
+    <string name="uwu_about">About Apps</string>
+    <string name="uwu_tools">Tools</string>
+    <string name="uwu_information_cat">Information</string>
+    <string name="uwu_neko_version">App Version</string>
+    <string name="uwu_build_type">Build Type</string>
+    <string name="uwu_build_date">Build Date</string>
+    <string name="uwu_recommended_os_cat">Recommended OS</string>
+    <string name="uwu_version_sdk_minimum">Min SDK Version</string>
+    <string name="uwu_version_sdk_target">Target SDK Version</string>
+    <string name="uwu_package_name">Package name</string>
+    <string name="uwu_speedtest_title">SpeedTest</string>
+    <string name="uwu_speedtest_summary">Speed Network</string>
+    <string name="uwu_status_connection_title">Status</string>
+    <string name="uwu_network_switcher_title">Network Switcher</string>
+    <string name="uwu_host_to_ip_title">Host to ip</string>
+    <string name="uwu_ip_location_title">IP Location</string>
+    <string name="uwu_exit_title">Exit</string>
+    <string name="uwu_maintainer_title">This app is under maintenance</string>
+    <string name="uwu_border_about_title">Additional Options</string>
+    <string name="uwu_border_about_summary">Tap the arrow icon on the side</string>
+    <string name="uwu_devicename_title">Device Name</string>
+    <string name="uwu_board_title">Board</string>
+    <string name="uwu_osversion_title">Os Version</string>
+    <string name="uwu_brand_title">Brand</string>
+    <string name="uwu_buildid_title">Build ID</string>
+    <string name="uwu_baseband_title">Baseband Version</string>
+    <string name="uwu_github_title">Github</string>
+    <string name="uwu_github_summary">Source code repository</string>
+    <string name="uwu_credit_title">Credits</string>
+    <string name="uwu_updater_title">Check Update</string>
+    <string name="uwu_changrlog_title">Changelog</string>
+    <string name="uwu_feetback_title">Feetback</string>
+    <string name="uwu_modder_title">Modders</string>
+    <string name="uwu_exit_message">Are you sure you want to leave this application?</string>
+    <string name="uwu_text_yes">Yes</string>
+    <string name="uwu_text_no">No</string>
+    <string name="uwu_ignore_battery_optimization_summary">Apply for the necessary permissions in order for the VPN to function properly.\n\nIf you are using a device made by a Chinese company, the card may not disappear after the permission is granted.</string>
+    <string name="uwu_ignore_battery_optimization_title">Ignore battery optimizations</string>
+    <string name="read_more">Read More</string>
+    <string name="default_title">No Internet</string>
+    <string name="default_message">Check your Internet connection and try again.</string>
+    <string name="please_turn_on">Please turn on</string>
+    <string name="wifi">Wifi</string>
+    <string name="mobile_data">Mobile data</string>
+    <string name="default_snackbar_message">No active Internet connection!</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="please_turn_off">Please turn off</string>
+    <string name="airplane_mode">Airplane mode</string>
+    <string name="default_airplane_mode_message">You have turned on the airplane mode.</string>
+    
+    <string name="air_title_report_issue">Report issue</string>
+    <string name="air_title_issue">Issue</string>
+    <string name="air_title_login">Login</string>
+    <string name="air_label_issue_title">Title</string>
+    <string name="air_label_issue_description">Description</string>
+    <string name="air_label_device_info">Device info</string>
+    <string name="air_label_use_account">Send using GitHub account</string>
+    <string name="air_label_use_email">Send using E-mail</string>
+    <string name="air_label_use_guest">Send anonymously</string>
+    <string name="air_label_username">Username</string>
+    <string name="air_label_password">Password</string>
+    <string name="air_label_email">E-mail</string>
+    <string name="air_label_email_optional">E-mail (optional)</string>
+    <string name="air_error_no_title">Please enter an issue title</string>
+    <string name="air_error_no_description">Please enter an issue description</string>
+    <plurals name="air_error_short_description">
+        <item quantity="one">The description must have at least %d character</item>
+        <item quantity="other">The description must have at least %d characters</item>
+    </plurals>
+    <string name="air_error_no_username">Please enter your valid GitHub username</string>
+    <string name="air_error_no_password">Please enter your valid GitHub password</string>
+    <string name="air_error_no_email">Please enter a e-mail address</string>
+    <string name="air_dialog_title_loading">Uploading report to GitHub…</string>
+    <string name="air_dialog_title_failed">Unable to send report</string>
+    <string name="air_dialog_description_failed_wrong_credentials">Wrong username or password</string>
+    <string name="air_dialog_description_failed_invalid_token">Invalid access token. Please contact the app developer.</string>
+    <string name="air_dialog_description_failed_issues_not_available">Issues are not enabled for the selected repository. Please contact the app developer.</string>
+    <string name="air_dialog_description_failed_unknown">An unexpected error occurred. Please contact the app developer.</string>
+    <string name="air_dialog_action_failed">OK</string>
+    <string name="air_title_login_github_notes"><b>Notes:</b> Two factor authentication is not supported.</string>
+    
+    <string name="homepage_widget_battery_percent">percent</string>
+    <string name="homepage_widget_battery_charge">Charging</string>
+    <string name="homepage_widget_battery_discharge">Discharging</string>
+    <string name="homepage_widget_battery_title">Battery</string>
+    <string name="homepage_widget_storage_title">Storage</string>
+    <string name="changelog_title">Changelog</string>
+
+    <string name="appupdater_update_available">New update available!</string>
+    <string name="appupdater_update_available_description_dialog">Update %1$s is available to download. By downloading the latest update you will get the latest features, improvements and bug fixes for %2$s.</string>
+    <string name="appupdater_update_available_description_dialog_before_release_notes">Update %1$s is available to download.\n\nYou can get these new features:\n%2$s</string>
+    <string name="appupdater_update_available_description_snackbar">Update %1$s is available!</string>
+    <string name="appupdater_update_available_description_notification">Update %1$s of %2$s is available to download</string>
+    <string name="appupdater_update_not_available">No updates available</string>
+    <string name="appupdater_update_not_available_description">You are already on the latest version %s!</string>
+    <string name="appupdater_btn_update">Update</string>
+    <string name="appupdater_btn_disable">Don\'t show again</string>
+    <string name="appupdater_btn_dismiss">Dismiss</string>
+    <string name="appupdater_channel_name">Update notifications</string>
+    <!-- Neko strings -->
+</resources>
