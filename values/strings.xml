@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_widget_name">Switch</string>
     <string name="app_tile_name">Switch</string>
     <string name="app_tile_first_use">First use of this feature, please use the app to add server</string>
@@ -88,7 +87,6 @@
     <string name="msg_remark_is_duplicate">The remarks already exists</string>
     <string name="toast_action_not_allowed">Action not allowed</string>
 
-
     <!-- PerAppProxyActivity -->
     <string name="msg_dialog_progress">Loading</string>
     <string name="menu_item_search">Search</string>
@@ -99,7 +97,6 @@
     <string name="msg_downloading_content">Downloading content</string>
     <string name="menu_item_export_proxy_app">Export to Clipboard</string>
     <string name="menu_item_import_proxy_app">Import from Clipboard</string>
-
 
     <!-- Preferences -->
     <string name="title_settings">Settings</string>
@@ -121,6 +118,8 @@
 
     <string name="title_pref_sniffing_enabled">Enable Sniffing</string>
     <string name="summary_pref_sniffing_enabled">Try sniff domain from the packet (default on)</string>
+    <string name="title_pref_route_only_enabled">Enable routeOnly</string>
+    <string name="summary_pref_route_only_enabled">Use the sniffed domain name for routing only, and keep the target address as the IP address.</string>
 
     <string name="title_pref_auto_test_connect">Auto Test and Connect</string>
     <string name="summary_pref_auto_test_connect">Test every 15 minutes, and if it is not connected, try to connect to the best configuration by evaluating real delays.</string>
@@ -368,5 +367,6 @@
     <string name="appupdater_btn_disable">Don\'t show again</string>
     <string name="appupdater_btn_dismiss">Dismiss</string>
     <string name="appupdater_channel_name">Update notifications</string>
+    <string name="uwu_host_checker">Host checker</string>
     <!-- Neko strings -->
 </resources>
